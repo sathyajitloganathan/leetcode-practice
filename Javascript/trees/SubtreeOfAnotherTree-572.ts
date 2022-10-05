@@ -23,7 +23,8 @@
         if (compareTrees(r, subRoot)) {
             return true;
         } else {
-            return traverse(r.left) || traverse(r.right);
+            return traverse(r.left) || 
+            traverse(r.right);
         }
 
         // return false;
