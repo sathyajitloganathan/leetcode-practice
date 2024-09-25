@@ -13,10 +13,10 @@
  */
 
 // p=2, q=8
-                            (6)
-            (2)                         (8)
-    (0)             (4)         (7)             (9)
-                (3)     (5)
+    //                         (6)
+    //         (2)                         (8)
+    // (0)             (4)         (7)             (9)
+    //             (3)     (5)
 
  function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
 	
